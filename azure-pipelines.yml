@@ -10,8 +10,8 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+- script: ls -la
+  displayName: 'List the Directory'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
